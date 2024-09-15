@@ -1,0 +1,69 @@
+
+@media (max-width: 375px) {
+
+   body {
+      font-family: 'Open Sans';
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      background: url(/src/images/bg-mobile.svg)top ;
+      background-repeat: no-repeat;
+      background-color: var(--Violet);
+   }
+
+   /* body, header, main, button.botao, footer, .sub-conteudo .titulo-conteudo {
+      border: 2px solid red;
+   } */
+   /* SEMPRE USAR PARA ESTUDAR!!!!!!!!!!!!!!!!!!!! */
+
+   header {
+      display: flex;
+      max-width: 50%;
+      padding: 0;
+      margin: 15px;
+   }
+
+
+   .sub-conteudo .titulo-conteudo{
+      display: flex;
+      font-family: 'Poppins';
+      font-weight: 400;
+      align-content: space-evenly;
+      margin: 0;
+   }
+   
+   .sub-conteudo {
+      display: flex;
+      justify-content: space-between;
+      align-content: space-between;
+   }
+  
+   img {
+      display: flex;
+      text-align: center;
+      max-width: 140px;
+   }
+   
+   main {
+      display: flex;
+      flex-direction: column;
+      max-width: 300px;
+      background-repeat: no-repeat;
+      background-size: auto;
+      gap: 0;
+   }
+   
+   .botao {
+      margin-left: 50px;
+   }
+
+   }
+
+   footer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+   }
+  
+
