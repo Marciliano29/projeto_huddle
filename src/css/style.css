@@ -72,11 +72,11 @@ button:hover{
 
 footer {
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
+    align-self: flex-end;
     color: white;
     gap: 15px;
-    max-width: 1440px;
-    width: 100%;
+    width: 40%;
 }
 
 footer .fa-brands.fa-square-facebook{
